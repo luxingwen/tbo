@@ -1,0 +1,14 @@
+vendor
+bin
+*.iml
+.idea
+default.etcd
+default.pd
+*.swp
+.DS_Store
+tags
+*.exe
+example/out
+example
+go.sum
+doc
