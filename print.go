@@ -101,6 +101,13 @@ func init() {
 		p.basePrinter.c = p
 		return p
 	})
+	RegisterPrinter("go", func() Printer {
+		p := new(goStructPrinter)
+		p.i = 0
+		p.s = "go"
+		p.basePrinter.c = p
+		return p
+	})
 }
 
 func RegisterPrinter(name string, f func() Printer) {
@@ -233,6 +240,7 @@ func (p *printer) printChunk(c *chunk) {
 }
 
 func (p *printer) printStructs(ss []*structType) {
+	p.p.PrintHead()
 	for _, s := range ss {
 		if p.p.CheckStruct(s) {
 			p.p.PrintStruct(s)
@@ -264,6 +272,7 @@ type Printer interface {
 	PrintIndex(c *chunk)
 	PrintStruct(s *structType)
 	PrintBase(t string, v interface{})
+	PrintHead()
 	Write([]byte)
 	Close()
 	String() string
@@ -415,6 +424,10 @@ func (p *basePrinter) Write(b []byte) {
 		}
 		p.b.Reset()
 	}
+}
+
+func (p *basePrinter) PrintHead() {
+
 }
 
 type luaPrinter struct {
@@ -723,6 +736,10 @@ func (p hrlPrinter) CheckChunk(c *chunk) bool {
 
 func (p hrlPrinter) CheckStruct(s *structType) bool {
 	return true
+}
+
+func (p hrlPrinter) PrintIndex(c *chunk) {
+
 }
 
 func (p *hrlPrinter) PrintChunk(c *chunk) {
@@ -1201,8 +1218,20 @@ type jsonPrinter struct {
 	basePrinter
 }
 
+func (p *jsonPrinter) printRecordName(n []byte) {
+	if p.e != nil {
+		log.Debugf("p.v :%v", p.e)
+		n = bytes.Join([][]byte{[]byte(p.e.prefix(p.s)), n, []byte(p.e.suffix(p.s))}, sepB)
+	}
+	if isUpper(rune(n[0])) {
+		p.Write(append(n, sepB...))
+	} else {
+		p.Write(n)
+	}
+}
+
 func (p jsonPrinter) CheckChunk(c *chunk) bool {
-	if c.flag != chunkSets {
+	if c == nil || c.flag != chunkSets {
 		return false
 	}
 	for _, cc := range c.cs {
@@ -1252,7 +1281,7 @@ func (p *jsonPrinter) PrintChunk(c *chunk) {
 		p.PrintChunk(c.cs[0])
 
 	case chunkIndex:
-		p.PrintChunk(c)
+		p.PrintIndex(c)
 	case chunkMap:
 		p.Write([]byte("\""))
 		p.Write(toBytes(c.args[0]))
@@ -1337,14 +1366,104 @@ func (p *jsonPrinter) PrintBase(t string, v interface{}) {
 	}
 }
 
-func (p *jsonPrinter) printRecordName(n []byte) {
-	if p.e != nil {
-		log.Debugf("p.v :%v", p.e)
-		n = bytes.Join([][]byte{[]byte(p.e.prefix(p.s)), n, []byte(p.e.suffix(p.s))}, sepB)
+type goStructPrinter struct {
+	jsonPrinter
+}
+
+func (p *goStructPrinter) CheckChunk(c *chunk) bool {
+	if c == nil || c.flag != chunkSets {
+		return false
 	}
-	if isUpper(rune(n[0])) {
-		p.Write(bytes.Join([][]byte{[]byte("'"), n, []byte("'")}, sepB))
-	} else {
-		p.Write(n)
+	for _, cc := range c.cs {
+		for _, ccc := range cc.cs {
+			switch ccc.flag {
+			case chunkEnum:
+			default:
+				return false
+			}
+		}
+	}
+	return true
+}
+
+func (p *goStructPrinter) CheckStruct(s *structType) bool {
+	return true
+}
+
+func (p *goStructPrinter) PrintHead() {
+	p.Write([]byte("package data\n"))
+}
+
+func (p *goStructPrinter) PrintStruct(s *structType) {
+	p.Write([]byte("\ntype "))
+	p.jsonPrinter.printRecordName([]byte(s.name))
+	p.Write([]byte(" struct{\n"))
+	p.Write(sepB)
+	bi := bytes.Repeat(indentation, 2)
+	b := false
+	desc := ""
+	for _, f := range s.fileds {
+		if f.ext != nil && f.ext.ignore(p.s) {
+			continue
+		}
+		if b {
+			if len(desc) > 0 {
+				p.Write([]byte(" // "))
+				p.Write([]byte(desc))
+			}
+			p.Write([]byte("\n"))
+		} else {
+			b = true
+		}
+		p.Write(bi)
+		bn := []byte(strings.Title(f.name))
+		p.Write(bn)
+		p.Write(bytes.Repeat([]byte(" "), 16-len(bn)))
+		p.printStructFiledType(f.t)
+		desc = f.desc
+	}
+	if len(desc) > 0 {
+		p.Write([]byte(" // "))
+		p.Write([]byte(desc))
+	}
+	p.Write(bytes.Join([][]byte{[]byte("\n"), []byte("}\n")}, sepB))
+
+}
+
+func (p *goStructPrinter) printStructFiledType(t tboType) {
+	switch tt := t.(type) {
+	case baseType:
+		switch tt.String() {
+		case "int":
+			p.Write([]byte("int64"))
+		case "uint":
+			p.Write([]byte("uint64"))
+		case "float":
+			p.Write([]byte("float64"))
+		case "bool":
+			p.Write([]byte("bool"))
+		case "bytes":
+			p.Write([]byte("[]byte"))
+		case "string":
+			p.Write([]byte("string"))
+		}
+	case *arrayType:
+		p.Write([]byte("[]"))
+		p.printStructFiledType(tt.element)
+	case *mapType:
+		p.Write([]byte("map["))
+		p.printStructFiledType(tt.key)
+		p.Write([]byte("]"))
+		p.printStructFiledType(tt.value)
+	case *structType:
+		p.Write([]byte("*"))
+		p.jsonPrinter.printRecordName([]byte(tt.name))
+	case *structIndex:
+		p.Write([]byte("*"))
+		p.jsonPrinter.printRecordName([]byte(tt.t.name))
+	case *setType:
+		p.printStructFiledType(tt.t)
+	default:
+		p.Write([]byte("interface{}"))
 	}
 }

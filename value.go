@@ -519,7 +519,12 @@ func (r *record) next() (tboValue, bool) {
 		}
 		r.v = rr
 	} else {
-		s := r.d.data.Cell(r.row, ci).String()
+		// 把 [{a; b}, {b, 4}] 转换成 ((a;b),(b;a))
+		str := strings.ReplaceAll(r.d.data.Cell(r.row, ci).String(), "[", "(")
+		str = strings.ReplaceAll(str, "]", ")")
+		str = strings.ReplaceAll(str, "{", "(")
+		s := strings.ReplaceAll(str, "}", ")")
+
 		if s != "" {
 			b := tboBuffer(s)
 			log.Debugf("record row:%d col:%d v %s ", r.row, r.col, b.String())
