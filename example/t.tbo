@@ -1,0 +1,44 @@
+############# 文件集 ###############
+
+
+
+@execl Fg ["example/xlsx/*.xlsx"]
+
+############# 类型 ##################
+
+# 键值对
+@type KV {
+	key   : uint   			# 键
+	value : uint|float      # 值
+}
+
+# 用户信息
+@type User {
+	level 		: uint 			# 等级
+	maxEnergy 	: uint 			# 体力上限
+	perexp 		: uint 			# 单次钓鱼经验
+	exp 		: uint 			# 升级经验
+	reward 		: array(KV) 	# 升级奖励
+	attrs 		: array(KV) 	# 属性奖励
+}
+
+# 用户
+@type Users <Fg.User[A.F][3.] = array(User.level)>
+
+
+# erlang record文件
+@print User {
+	hrl > "example/out/fg_tmpl.hrl" `suffix=Tmpl`
+	go > "example/out/tpl.go"
+}
+
+
+
+# 用户
+@print Users {
+	erl > "example/out/user.config" `suffix=Tmpl`
+	lua > "example/out/userConf.lua"
+	json > "example/out/user.json"
+	xml > "example/out/user.xml"
+}
+

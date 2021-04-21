@@ -8,7 +8,5 @@ default.pd
 .DS_Store
 tags
 *.exe
-example/out
-example
 go.sum
 doc

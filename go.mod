@@ -1,4 +1,4 @@
-module fg.kunqi.xyz/fgs/tbo
+module github.com/luxingwen/tbo
 
 require (
 	github.com/sirupsen/logrus v1.3.0

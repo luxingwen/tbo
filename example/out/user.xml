@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <User level="1" maxEnergy="30" perexp="40" exp="2503">
+    <reward Size="3">
+        <KV key="1" value="500"/>
+        <KV key="2" value="2"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="2" maxEnergy="30" perexp="42" exp="5436">
+    <reward Size="3">
+        <KV key="1" value="1000"/>
+        <KV key="2" value="2"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="3" maxEnergy="30" perexp="44" exp="8382">
+    <reward Size="3">
+        <KV key="1" value="1500"/>
+        <KV key="2" value="4"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="4" maxEnergy="30" perexp="46" exp="12181">
+    <reward Size="3">
+        <KV key="1" value="2000"/>
+        <KV key="2" value="4"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="5" maxEnergy="30" perexp="48" exp="16000">
+    <reward Size="3">
+        <KV key="1" value="2500"/>
+        <KV key="2" value="6"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="6" maxEnergy="30" perexp="50" exp="20680">
+    <reward Size="3">
+        <KV key="1" value="3000"/>
+        <KV key="2" value="6"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="7" maxEnergy="30" perexp="52" exp="25387">
+    <reward Size="3">
+        <KV key="1" value="3500"/>
+        <KV key="2" value="8"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="8" maxEnergy="30" perexp="54" exp="31393">
+    <reward Size="3">
+        <KV key="1" value="4000"/>
+        <KV key="2" value="8"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="9" maxEnergy="30" perexp="56" exp="37851">
+    <reward Size="3">
+        <KV key="1" value="4500"/>
+        <KV key="2" value="10"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="10" maxEnergy="30" perexp="58" exp="45204">
+    <reward Size="3">
+        <KV key="1" value="5000"/>
+        <KV key="2" value="10"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="11" maxEnergy="30" perexp="60" exp="53025">
+    <reward Size="3">
+        <KV key="1" value="6000"/>
+        <KV key="2" value="12"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="12" maxEnergy="30" perexp="62" exp="62182">
+    <reward Size="3">
+        <KV key="1" value="7000"/>
+        <KV key="2" value="12"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="13" maxEnergy="30" perexp="64" exp="72681">
+    <reward Size="3">
+        <KV key="1" value="8000"/>
+        <KV key="2" value="14"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="14" maxEnergy="30" perexp="66" exp="84111">
+    <reward Size="3">
+        <KV key="1" value="9000"/>
+        <KV key="2" value="14"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="15" maxEnergy="30" perexp="69" exp="96473">
+    <reward Size="3">
+        <KV key="1" value="10000"/>
+        <KV key="2" value="16"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="16" maxEnergy="30" perexp="72" exp="110655">
+    <reward Size="3">
+        <KV key="1" value="11000"/>
+        <KV key="2" value="16"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="17" maxEnergy="30" perexp="75" exp="126663">
+    <reward Size="3">
+        <KV key="1" value="12000"/>
+        <KV key="2" value="18"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="18" maxEnergy="30" perexp="78" exp="144094">
+    <reward Size="3">
+        <KV key="1" value="13000"/>
+        <KV key="2" value="18"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="19" maxEnergy="30" perexp="81" exp="163386">
+    <reward Size="3">
+        <KV key="1" value="14000"/>
+        <KV key="2" value="20"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="20" maxEnergy="30" perexp="84" exp="184599">
+    <reward Size="3">
+        <KV key="1" value="15000"/>
+        <KV key="2" value="20"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="21" maxEnergy="30" perexp="87" exp="208132">
+    <reward Size="3">
+        <KV key="1" value="16000"/>
+        <KV key="2" value="22"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="22" maxEnergy="30" perexp="90" exp="233612">
+    <reward Size="3">
+        <KV key="1" value="17000"/>
+        <KV key="2" value="22"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="23" maxEnergy="30" perexp="93" exp="261953">
+    <reward Size="3">
+        <KV key="1" value="18000"/>
+        <KV key="2" value="24"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="24" maxEnergy="30" perexp="96" exp="292714">
+    <reward Size="3">
+        <KV key="1" value="19000"/>
+        <KV key="2" value="24"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="25" maxEnergy="30" perexp="100" exp="326402">
+    <reward Size="3">
+        <KV key="1" value="20000"/>
+        <KV key="2" value="26"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="26" maxEnergy="30" perexp="102" exp="363507">
+    <reward Size="3">
+        <KV key="1" value="21000"/>
+        <KV key="2" value="26"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="27" maxEnergy="30" perexp="104" exp="403082">
+    <reward Size="3">
+        <KV key="1" value="22000"/>
+        <KV key="2" value="28"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="28" maxEnergy="30" perexp="106" exp="446648">
+    <reward Size="3">
+        <KV key="1" value="23000"/>
+        <KV key="2" value="28"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="29" maxEnergy="30" perexp="108" exp="494160">
+    <reward Size="3">
+        <KV key="1" value="24000"/>
+        <KV key="2" value="30"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="30" maxEnergy="30" perexp="110" exp="545267">
+    <reward Size="3">
+        <KV key="1" value="25000"/>
+        <KV key="2" value="30"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="31" maxEnergy="30" perexp="111" exp="600412">
+    <reward Size="3">
+        <KV key="1" value="26500"/>
+        <KV key="2" value="32"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="32" maxEnergy="30" perexp="112" exp="660171">
+    <reward Size="3">
+        <KV key="1" value="28000"/>
+        <KV key="2" value="32"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="33" maxEnergy="30" perexp="113" exp="724530">
+    <reward Size="3">
+        <KV key="1" value="29500"/>
+        <KV key="2" value="34"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="34" maxEnergy="30" perexp="114" exp="794091">
+    <reward Size="3">
+        <KV key="1" value="31000"/>
+        <KV key="2" value="34"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="35" maxEnergy="30" perexp="115" exp="868833">
+    <reward Size="3">
+        <KV key="1" value="32500"/>
+        <KV key="2" value="36"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="36" maxEnergy="30" perexp="116" exp="948920">
+    <reward Size="3">
+        <KV key="1" value="34000"/>
+        <KV key="2" value="36"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="37" maxEnergy="30" perexp="117" exp="1034788">
+    <reward Size="3">
+        <KV key="1" value="35500"/>
+        <KV key="2" value="38"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="38" maxEnergy="30" perexp="118" exp="1127218">
+    <reward Size="3">
+        <KV key="1" value="37000"/>
+        <KV key="2" value="38"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="39" maxEnergy="30" perexp="119" exp="1225939">
+    <reward Size="3">
+        <KV key="1" value="38500"/>
+        <KV key="2" value="40"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="40" maxEnergy="30" perexp="120" exp="1331280">
+    <reward Size="3">
+        <KV key="1" value="40000"/>
+        <KV key="2" value="40"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="41" maxEnergy="30" perexp="121" exp="1444301">
+    <reward Size="3">
+        <KV key="1" value="42000"/>
+        <KV key="2" value="42"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="42" maxEnergy="30" perexp="122" exp="1564475">
+    <reward Size="3">
+        <KV key="1" value="44000"/>
+        <KV key="2" value="42"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="43" maxEnergy="30" perexp="123" exp="1692548">
+    <reward Size="3">
+        <KV key="1" value="46000"/>
+        <KV key="2" value="44"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="44" maxEnergy="30" perexp="124" exp="1829128">
+    <reward Size="3">
+        <KV key="1" value="48000"/>
+        <KV key="2" value="44"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="45" maxEnergy="30" perexp="125" exp="1974420">
+    <reward Size="3">
+        <KV key="1" value="50000"/>
+        <KV key="2" value="46"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="46" maxEnergy="30" perexp="126" exp="2128674">
+    <reward Size="3">
+        <KV key="1" value="52000"/>
+        <KV key="2" value="46"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="47" maxEnergy="30" perexp="127" exp="2292576">
+    <reward Size="3">
+        <KV key="1" value="54000"/>
+        <KV key="2" value="48"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="48" maxEnergy="30" perexp="128" exp="2466499">
+    <reward Size="3">
+        <KV key="1" value="56000"/>
+        <KV key="2" value="48"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="49" maxEnergy="30" perexp="129" exp="2651322">
+    <reward Size="3">
+        <KV key="1" value="58000"/>
+        <KV key="2" value="50"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="50" maxEnergy="30" perexp="130" exp="2846479">
+    <reward Size="3">
+        <KV key="1" value="60000"/>
+        <KV key="2" value="50"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="51" maxEnergy="30" perexp="131" exp="3053325">
+    <reward Size="3">
+        <KV key="1" value="62000"/>
+        <KV key="2" value="52"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="52" maxEnergy="30" perexp="132" exp="3271837">
+    <reward Size="3">
+        <KV key="1" value="64000"/>
+        <KV key="2" value="52"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="53" maxEnergy="30" perexp="133" exp="3502862">
+    <reward Size="3">
+        <KV key="1" value="66000"/>
+        <KV key="2" value="54"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="54" maxEnergy="30" perexp="134" exp="3746932">
+    <reward Size="3">
+        <KV key="1" value="68000"/>
+        <KV key="2" value="54"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="55" maxEnergy="30" perexp="135" exp="4004372">
+    <reward Size="3">
+        <KV key="1" value="70000"/>
+        <KV key="2" value="56"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="56" maxEnergy="30" perexp="136" exp="4276722">
+    <reward Size="3">
+        <KV key="1" value="72000"/>
+        <KV key="2" value="56"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="57" maxEnergy="30" perexp="137" exp="4562412">
+    <reward Size="3">
+        <KV key="1" value="74000"/>
+        <KV key="2" value="58"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="58" maxEnergy="30" perexp="138" exp="4864054">
+    <reward Size="3">
+        <KV key="1" value="76000"/>
+        <KV key="2" value="58"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="59" maxEnergy="30" perexp="139" exp="5181921">
+    <reward Size="3">
+        <KV key="1" value="78000"/>
+        <KV key="2" value="60"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="60" maxEnergy="30" perexp="140" exp="5515748">
+    <reward Size="3">
+        <KV key="1" value="80000"/>
+        <KV key="2" value="60"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="61" maxEnergy="30" perexp="141" exp="5867356">
+    <reward Size="3">
+        <KV key="1" value="82000"/>
+        <KV key="2" value="62"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="62" maxEnergy="30" perexp="142" exp="6236529">
+    <reward Size="3">
+        <KV key="1" value="84000"/>
+        <KV key="2" value="62"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="63" maxEnergy="30" perexp="143" exp="6623867">
+    <reward Size="3">
+        <KV key="1" value="86000"/>
+        <KV key="2" value="64"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="64" maxEnergy="30" perexp="144" exp="7031020">
+    <reward Size="3">
+        <KV key="1" value="88000"/>
+        <KV key="2" value="64"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="65" maxEnergy="30" perexp="145" exp="7458059">
+    <reward Size="3">
+        <KV key="1" value="90000"/>
+        <KV key="2" value="66"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="66" maxEnergy="30" perexp="146" exp="7905995">
+    <reward Size="3">
+        <KV key="1" value="92000"/>
+        <KV key="2" value="66"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="67" maxEnergy="30" perexp="147" exp="8375474">
+    <reward Size="3">
+        <KV key="1" value="94000"/>
+        <KV key="2" value="68"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="68" maxEnergy="30" perexp="148" exp="8867068">
+    <reward Size="3">
+        <KV key="1" value="96000"/>
+        <KV key="2" value="68"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="69" maxEnergy="30" perexp="149" exp="9381917">
+    <reward Size="3">
+        <KV key="1" value="98000"/>
+        <KV key="2" value="70"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="70" maxEnergy="30" perexp="150" exp="9920701">
+    <reward Size="3">
+        <KV key="1" value="100000"/>
+        <KV key="2" value="70"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="71" maxEnergy="30" perexp="151" exp="10483963">
+    <reward Size="3">
+        <KV key="1" value="102000"/>
+        <KV key="2" value="72"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="72" maxEnergy="30" perexp="152" exp="11073044">
+    <reward Size="3">
+        <KV key="1" value="104000"/>
+        <KV key="2" value="72"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="73" maxEnergy="30" perexp="153" exp="11688431">
+    <reward Size="3">
+        <KV key="1" value="106000"/>
+        <KV key="2" value="74"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="74" maxEnergy="30" perexp="154" exp="12333295">
+    <reward Size="3">
+        <KV key="1" value="108000"/>
+        <KV key="2" value="74"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="75" maxEnergy="30" perexp="155" exp="13004716">
+    <reward Size="3">
+        <KV key="1" value="110000"/>
+        <KV key="2" value="76"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="76" maxEnergy="30" perexp="156" exp="13705946">
+    <reward Size="3">
+        <KV key="1" value="112000"/>
+        <KV key="2" value="76"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="77" maxEnergy="30" perexp="157" exp="14438085">
+    <reward Size="3">
+        <KV key="1" value="114000"/>
+        <KV key="2" value="78"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="78" maxEnergy="30" perexp="158" exp="15201456">
+    <reward Size="3">
+        <KV key="1" value="116000"/>
+        <KV key="2" value="78"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="79" maxEnergy="30" perexp="159" exp="15997889">
+    <reward Size="3">
+        <KV key="1" value="118000"/>
+        <KV key="2" value="80"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="80" maxEnergy="30" perexp="160" exp="16828557">
+    <reward Size="3">
+        <KV key="1" value="120000"/>
+        <KV key="2" value="80"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="81" maxEnergy="30" perexp="161" exp="17691504">
+    <reward Size="3">
+        <KV key="1" value="122000"/>
+        <KV key="2" value="82"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="82" maxEnergy="30" perexp="162" exp="18593051">
+    <reward Size="3">
+        <KV key="1" value="124000"/>
+        <KV key="2" value="82"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="83" maxEnergy="30" perexp="163" exp="19530636">
+    <reward Size="3">
+        <KV key="1" value="126000"/>
+        <KV key="2" value="84"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="84" maxEnergy="30" perexp="164" exp="20507098">
+    <reward Size="3">
+        <KV key="1" value="128000"/>
+        <KV key="2" value="84"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="85" maxEnergy="30" perexp="165" exp="21521853">
+    <reward Size="3">
+        <KV key="1" value="130000"/>
+        <KV key="2" value="86"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="86" maxEnergy="30" perexp="166" exp="22578532">
+    <reward Size="3">
+        <KV key="1" value="132000"/>
+        <KV key="2" value="86"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="87" maxEnergy="30" perexp="167" exp="23676446">
+    <reward Size="3">
+        <KV key="1" value="134000"/>
+        <KV key="2" value="88"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="88" maxEnergy="30" perexp="168" exp="24818237">
+    <reward Size="3">
+        <KV key="1" value="136000"/>
+        <KV key="2" value="88"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="89" maxEnergy="30" perexp="169" exp="26003691">
+    <reward Size="3">
+        <KV key="1" value="138000"/>
+        <KV key="2" value="90"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="90" maxEnergy="30" perexp="170" exp="27235657">
+    <reward Size="3">
+        <KV key="1" value="140000"/>
+        <KV key="2" value="90"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="91" maxEnergy="30" perexp="171" exp="28514410">
+    <reward Size="3">
+        <KV key="1" value="142000"/>
+        <KV key="2" value="92"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="92" maxEnergy="30" perexp="172" exp="29844911">
+    <reward Size="3">
+        <KV key="1" value="144000"/>
+        <KV key="2" value="92"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="93" maxEnergy="30" perexp="173" exp="31222409">
+    <reward Size="3">
+        <KV key="1" value="146000"/>
+        <KV key="2" value="94"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="94" maxEnergy="30" perexp="174" exp="32652621">
+    <reward Size="3">
+        <KV key="1" value="148000"/>
+        <KV key="2" value="94"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="95" maxEnergy="30" perexp="175" exp="34137738">
+    <reward Size="3">
+        <KV key="1" value="150000"/>
+        <KV key="2" value="96"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="96" maxEnergy="30" perexp="176" exp="35675818">
+    <reward Size="3">
+        <KV key="1" value="152000"/>
+        <KV key="2" value="96"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="97" maxEnergy="30" perexp="177" exp="37272455">
+    <reward Size="3">
+        <KV key="1" value="154000"/>
+        <KV key="2" value="98"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="98" maxEnergy="30" perexp="178" exp="38928044">
+    <reward Size="3">
+        <KV key="1" value="156000"/>
+        <KV key="2" value="98"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="99" maxEnergy="30" perexp="179" exp="40639030">
+    <reward Size="3">
+        <KV key="1" value="158000"/>
+        <KV key="2" value="100"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+  <User level="100" maxEnergy="30" perexp="180" exp="42350016">
+    <reward Size="3">
+        <KV key="1" value="160000"/>
+        <KV key="2" value="100"/>
+        <KV key="4" value="5"/>
+    </reward>
+    <attrs Size="4">
+        <KV key="1" value="5"/>
+        <KV key="2" value="5"/>
+        <KV key="12" value="1"/>
+        <KV key="13" value="500"/>
+    </attrs>
+  </User>
+</Users>
